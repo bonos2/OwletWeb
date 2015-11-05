@@ -1,0 +1,244 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html {
+	font-smoothing: antialiased !important;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004) !important;
+}
+#wrapper {
+	width: 700px;
+	height: auto;
+	position: absolute;
+	vertical-align: middle;
+	/*top: calc(50% - 50%);*/
+	/*left: calc(50% - 350px);*/
+	box-sizing: border-box;
+}
+#profile-head {
+	width: 700px;
+	height: auto;
+}
+#profile-img {
+	max-width: 700px;
+	max-height: 400px;
+}
+
+#text-info {
+	height: 40px;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 25px;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+#test-reply {
+	height: auto;
+	box-sizing: border-box;
+}
+#footer{
+	height: 50px;
+	padding: 5px 0 0 5px;
+	box-sizing: border-box;
+	color: gray;
+}
+
+#container-reply {
+	height: auto;
+	margin: 0 7px 15px 7px;
+	/* background-color: #D9E5FF; */
+	box-sizing: border-box;
+}
+#input-reply {
+	/*border: 1px solid green;	green*/
+	height: auto;
+}
+
+#container-reviewer {
+	/*border: 1px solid red;	redd*/
+	height: auto;
+	box-sizing: border-box;
+}
+#reviewer-id {
+	width: 20%;
+	height: auto;
+	/*border: 1px solid black;	*/
+	padding: 5px 5px 5px 20px;
+	margin-top: 7px;
+	display: inline-block;
+}
+#id{
+	margin-right: 5px;
+}
+#input-reviewer-id {
+	width: 20%;
+	height: 18px;
+	font-size: 15px;
+	padding: 3px;
+	display: inline-block;
+}
+/*#container-textarea {
+	width: 590px;
+	height: 80px;
+	display: inline-block;
+	border: 2px solid pink;
+	margin: 7px 0 7px 13px;
+}*/
+/*#container-submit-button {
+	width: 70px;
+	height: 80px;
+	border: 1px solid gray;
+	display: inline-block;
+	margin: 7px 7px 7px 0;
+	position: absolute;
+}*/
+#input-reply-textarea {
+	width: 70%;
+	height: 70px;
+	line-height: 20px;
+	font-size: 17px;
+	padding: 5px;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 5px 20px 10px 20px;
+}
+#submit-button {
+	width: 77px;
+	height: 70px;
+	font-size: 16px;
+	display: inline-block;
+	position: absolute;
+	margin: 5px 15px 10px 0;
+}
+
+#more-reply-button {
+	width: 670px;
+	height: 45px;
+	margin-left: 15px;
+	font-size: 15px;
+	box-sizing: border-box;
+}
+#line-head {
+	height: 1px;
+	margin-left: 5px;
+	margin-right: 5px;
+	box-sizing: border-box;
+	background-color: lightgray;
+	margin-bottom: 10px;
+}
+#line-mid {
+	height: 1px;
+	box-sizing: border-box;
+	background-color: lightgray;
+}
+#id-container {
+	/* width: 200px !important;
+	margin: 0 !important; */
+} 
+#ops-star-container {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 0 0 0 5px;
+	margin: 0 0 5px 0;
+	
+}
+.star-reply {
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+.ops {
+	display: inline-block;
+	box-sizing: border-box;
+	font-size: 13px;
+	vertical-align: middle;
+}
+.star-text-con {
+	display: inline-block;
+	box-sizing: border-box;
+	line-height: 15px;
+	margin: 0 10px 0 0;
+}
+.boxReply {
+	height: auto;
+	margin: 0 10px 0 0;
+	box-sizing: border-box;
+}
+.timeReply {
+	height: auto;
+	font-size: 12px;
+	color: gray;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	padding: 0 0 0 5px;
+}
+.seperator {
+	width: 100%;
+	height: 1px;
+	background-color: lightgray;
+}
+.contentReply {
+	height: auto;
+	padding: 0 5px 0 5px;
+	color: black;
+	line-height: 19px;
+}
+.input-reply-textarea {
+	resize: none;
+	overflow: auto;
+}
+.userIDReply {
+	width: 140px;
+	margin: 8px 5px 5px 0;
+	/*padding: 3px 3px 3px 5px;*/
+	padding: 0 0 0 5px;
+	font-size: 16px;
+	color: #CF3D82;
+	/* border: 1px solid black; */
+}
+.starReply {
+	box-sizing: border-box;
+	
+/* 	-webkit-border-radius: 9px 9px 9px 9px;  
+  	-moz-border-radius: 9px 9px 9px 9px;  
+  	-o-border-radius: 9px 9px 9px 9px;  
+  	border-radius: 9px 9px 9px 9px; 
+	border:1px solid #1F51B7; */
+	margin:0 0 10px 7px;
+	width:270px;
+	filter: alpha(opacity=80);
+    -khtml-opacity: 0.8;
+    -moz-opacity: 0.8;
+    opacity: 0.8; 
+	outline: none;
+}
+
+.tasteReply {
+	width: 60px;
+	/* border: 1px solid red; */
+	display: inline-block;
+	font-size: 13px;
+	box-sizing: border-box;
+	color: gray;
+}
+.kindnessReply {
+	width: 80px;
+	/* border: 1px solid orange; */
+	display: inline-block;
+	font-size: 13px;
+	box-sizing: border-box;
+	color: gray;
+}
+.moodReply {
+	width: 80px;
+	/* border: 1px solid green; */
+	display: inline-block;
+	font-size: 13px;
+	box-sizing: border-box;
+	color: gray;
+}
+
+
+
+
+
